@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import ClientHome from "./ClientHome";
+import ClientAbout from "./ClientAbout";
 
-export default function Home() {
+export default function About() {
   const router = useRouter();
   return (
     <div>
-      <h1>Home</h1>
-      <ClientHome />
+      <h1>About</h1>
+      <ClientAbout />
     </div>
   );
 }
